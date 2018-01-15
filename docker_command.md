@@ -19,7 +19,7 @@ Docker, including docker-compse command cheet sheet for everyday use..
 
 ## Docker Compose
 - `docker-compose build`
-  - build a service.
+  - build images and containers.
   - `--no-cache` option uses no cache.
 
 - `docker-compose pull`
