@@ -16,6 +16,15 @@ Docker, including docker-compse command cheet sheet for everyday use..
 - `docker build --no-cache=true -t test`
   - `-t` provides image name.
   - `--no-cache=true` indicates no cache
+- `docker ps`
+  - shows running containers
+  - `-a` shows all containers including stopped containers.
+- `docker images`
+  - show built docker images.
+- `docker rmi {image}...`
+  - delete docker image(s).
+- `docker system prune`
+  - delete all unused containers, images, volumes and network.
 
 ## Docker Compose
 - `docker-compose build`
