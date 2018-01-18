@@ -25,6 +25,8 @@ Docker, including docker-compse command cheet sheet for everyday use..
   - delete docker image(s).
 - `docker system prune`
   - delete all unused containers, images, volumes and network.
+- `docker tag {source_image[:tag]} {target_image[:tag]}`
+  - attach tag to docker image.
 
 ## Docker Compose
 - `docker-compose build`
@@ -42,3 +44,9 @@ Docker, including docker-compse command cheet sheet for everyday use..
   - `-v --rmi all` option indicates removing volumes and docker images.
 - `docker-compose exec {container_name} bash`
   - allocate tty with bush
+
+## Docker with Google Container Registory
+- `gcloud docker -- push {host_name}/{project_id}/{image}`
+  - regist docker image to google container registory.
+- `gcloud container images list-tags {image}`
+  - get a list of message tag and digest related to the image.
