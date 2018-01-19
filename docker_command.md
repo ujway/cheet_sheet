@@ -27,6 +27,8 @@ Docker, including docker-compse command cheet sheet for everyday use..
   - delete all unused containers, images, volumes and network.
 - `docker tag {source_image[:tag]} {target_image[:tag]}`
   - attach tag to docker image.
+- `docker commit {container} {image}`
+  - create docker image from existing container.
 
 ## Docker Compose
 - `docker-compose build`
