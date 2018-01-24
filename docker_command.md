@@ -29,6 +29,8 @@ Docker, including docker-compse command cheet sheet for everyday use..
   - attach tag to docker image.
 - `docker commit {container} {image}`
   - create docker image from existing container.
+- `docker pull {image[:tag]}`
+  - download docker image to local.
 
 ## Docker Compose
 - `docker-compose build`
