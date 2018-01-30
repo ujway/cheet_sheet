@@ -12,8 +12,9 @@ Docker, including docker-compse command cheet sheet for everyday use..
 - `docker run -it -p 8080:8080 test-image bash`
   - `-p` port forwarding guest:host IPs.
   - `-i` send a command to container with bash, etc..
-  - `-t` connects stdout on container and stdout.
+  - `-f` specify Dockerfile.
 - `docker build --no-cache=true -t test`
+  - `-t` provides image name.
   - `-t` provides image name.
   - `--no-cache=true` indicates no cache
 - `docker ps`
