@@ -32,6 +32,8 @@ Docker, including docker-compse command cheet sheet for everyday use..
   - create docker image from existing container.
 - `docker pull {image[:tag]}`
   - download docker image to local.
+- `docker rmi $(docker images -f "dangling=true" -q)`
+  - remove all no tagged images.
 
 ## Docker Compose
 - `docker-compose build`
