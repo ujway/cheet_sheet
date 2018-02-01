@@ -34,6 +34,8 @@ Docker, including docker-compse command cheet sheet for everyday use..
   - download docker image to local.
 - `docker rmi $(docker images -f "dangling=true" -q)`
   - remove all no tagged images.
+- `docker volume ls -qf dangling=true | xargs docker volume rm`
+  - remove all docker volumes.
 
 ## Docker Compose
 - `docker-compose build`
