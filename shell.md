@@ -7,5 +7,7 @@ Useful command for controll shell
 - `ps aux | grep target_process | grep -v grep | awk '{print "kill -9", $2}' | sh`
   - kill all specific process.
 - `echo 127:0:0:1 | awk -F'[:]' '{print $1}'` `#out> 127`
-  -  extracts 1st field of 127:0:0:1
+  - extracts 1st field of 127:0:0:1
   - `-F` is a delimiter.
+- `pkill -f {process}`
+  - kill process by process name.
