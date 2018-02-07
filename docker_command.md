@@ -41,11 +41,11 @@ Docker, including docker-compse command cheet sheet for everyday use..
 - `docker-compose build`
   - build images and containers.
   - `--no-cache` option uses no cache.
-
 - `docker-compose pull`
   - pull images defined in docker-compose.yml
-- `docker-compose up`
+- `docker-compose {file option} up {option}`
   - start or restart a docker service defined in docker-compose.yml
+  - `-f {docker-compose.yml}` compose with specified file.
   - `-d` is a detach option. docker-compose up.
   - `--build` provides with bulding docker image.
 - `docker-compose down`
