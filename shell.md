@@ -11,3 +11,5 @@ Useful command for controll shell
   - `-F` is a delimiter.
 - `pkill -f {process}`
   - kill process by process name.
+- lsof -i:80 -P
+  - Specify processes with a port.
