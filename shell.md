@@ -13,3 +13,5 @@ Useful command for controll shell
   - kill process by process name.
 - lsof -i:80 -P
   - Specify processes with a port.
+- hoge=$(command) && ${hoge}
+  - Execute a command with a previous stdout.
