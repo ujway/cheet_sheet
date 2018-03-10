@@ -17,5 +17,6 @@ Useful command for controll shell
   - Execute a command with a previous stdout.
 - `mysql -h {host_name} -u {user_name} -D {db_name} -p`
   - connect to mysql.
+  - `-p` requires a password.
 - `psql -h {host_name} -U {user_name} -d {db_name}`
   - connect to postgresql.
