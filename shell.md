@@ -11,9 +11,9 @@ Useful command for controll shell
   - `-F` is a delimiter.
 - `pkill -f {process}`
   - kill process by process name.
-- lsof -i:80 -P
+- `lsof -i:80 -P`
   - Specify processes with a port.
-- hoge=$(command) && ${hoge}
+- `hoge=$(command) && ${hoge}`
   - Execute a command with a previous stdout.
 - `mysql -h {host_name} -u {user_name} -D {db_name} -p`
   - connect to mysql.
