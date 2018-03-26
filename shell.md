@@ -20,3 +20,5 @@ Useful command for controll shell
   - `-p` requires a password.
 - `psql -h {host_name} -U {user_name} -d {db_name}`
   - connect to postgresql.
+- `echo hoge | sudo tee rootfile`
+  - prevent from access denieal to use this instead of `sudo hoge >> rootfile`
