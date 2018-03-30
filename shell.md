@@ -22,3 +22,5 @@ Useful command for controll shell
   - connect to postgresql.
 - `echo hoge | sudo tee rootfile`
   - prevent from access denieal to use this instead of `sudo hoge >> rootfile`
+- `ssh-keygen -R {host_name}`
+  - reset finger print.
