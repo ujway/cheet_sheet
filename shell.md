@@ -24,3 +24,5 @@ Useful command for controll shell
   - prevent from access denieal to use this instead of `sudo hoge >> rootfile`
 - `ssh-keygen -R {host_name}`
   - reset finger print.
+- `{command} > {file_name} 2>&1`
+  - write standard output/error of a result to {file_name}.
