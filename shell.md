@@ -26,3 +26,6 @@ Useful command for controll shell
   - reset finger print.
 - `{command} > {file_name} 2>&1`
   - write standard output/error of a result to {file_name}.
+- `sed -i {""} -e "2s/^/hoge/g" {file_name}`
+  - insert hoge to 2L in {file_name}
+  - `""` after -i is required for Mac(BSD).
