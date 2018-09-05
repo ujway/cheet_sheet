@@ -29,3 +29,5 @@ Useful command for controll shell
 - `sed -i {""} -e "2s/^/hoge/g" {file_name}`
   - insert hoge to 2L in {file_name}
   - `""` after -i is required for Mac(BSD).
+- `git branch --merged | grep -vE '^\*|develop$|master$' | xargs -I % git branch -d %`
+  - delete merged branches except from develop and master branch
